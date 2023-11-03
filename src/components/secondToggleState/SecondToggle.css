@@ -1,0 +1,93 @@
+.contentHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutUs{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: max(20px,1.7vw);
+}
+
+.icon-bg{
+    width: max(30px,1.5vw);
+    height: max(30px,1.5vw);
+}
+
+
+.img-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    border-radius: 100%;
+    padding: 4%;
+    
+}
+
+
+.img{
+    width: max(30px,1.2vw);
+    height: max(25px,1.1vw);
+    color: blue;
+}
+
+
+
+.content3{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+    border: 1px solid darkgray;
+    flex-direction: column;
+    padding: 1%;
+
+}
+.box{
+    margin-top:max(10px,0.5vw) ;
+    padding: 1%;
+    border-top: 1px solid darkgray;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: max(10px,1vw);
+}
+.box-content{
+    width: 100%;
+    padding: 1% 0;
+}
+
+.box-stands{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+    padding:0 2%;
+}
+
+.rendered-text p{
+    color: darkgray;
+}
+.rendered-text{
+    padding: 4% ;
+    width: 80%;
+}
+
+.icon, .icon-bg{
+   transition: 0.3s ease;
+}
+
+@media screen and (max-width:680px) {
+    .rendered-text{
+        width: 92%;
+    }
+}
+@media screen and (max-width:555px) {
+    .aboutUs{
+        width: 100%;
+    }
+}

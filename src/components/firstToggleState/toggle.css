@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0 ;
+}
+
+.container{
+    padding: 2%;
+    width: 94%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon{
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+    padding: 2% 2%;
+    border: 1px solid darkgray;
+    border-radius: max(10px,1vw);
+    flex-direction: column;
+
+}
+
+.content-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content2{
+    padding: 1%;
+}
+
+p{
+    font-size: max(14px,1vw);
+}
+h4{
+    font-size: max(18px,1vw);
+}
+.content-main p{
+    color: darkgray;
+}
+#icona{
+    width: max(30px,1.5vw);
+    height: max(30px,1.5vw);
+    transition: 0.4s ease;
+}
+
+
+
+
